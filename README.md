@@ -48,7 +48,7 @@ Usage
 (See test.php)
 
 ```
-$orth - new Orth\Parser( fopen( "cms.acl" ) );
+$orth = new Orth\Parser( fopen( "cms.acl" ) );
 
 // can_read( $who, $role, $team, $module_being_accesses, $section_being_accessed );
 // can_write( $who, $role, $team, $module_being_accesses, $section_being_accessed );

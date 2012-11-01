@@ -104,7 +104,6 @@ class Parser {
 					// this rule won't match
 					continue;
 				}
-				print "role match";
 			}
 			if( isset( $r[ "conditions" ][ "site" ] ) ) {
 				if( !preg_match( $this->glob2preg( $r[ "conditions" ][ "site" ] ), $user_site ) ) {
